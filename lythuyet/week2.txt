@@ -1,0 +1,89 @@
+##################################################
+# PHẦN 1: CÂU HỎI TRẮC NGHIỆM LẬP TRÌNH C
+##################################################
+
+1. Khi thực hiện phép chia số nguyên trong C, nhận định nào sau đây là đúng?
+   a) Khi chia 2 số nguyên (int), kết quả luôn là số nguyên, phần dư bị bỏ đi.
+   b) 7 / 2 với kiểu int cho kết quả bằng 3.
+   c) 7 / 2.0 cho kết quả là 3.5 vì có ép kiểu sang double.
+   d) Khi chia cho 0, chương trình sẽ trả về giá trị 0.
+   e) Số nguyên không dấu thực hiện tính toán nhanh hơn số có dấu.
+
+2. Khi ép kiểu (type casting) trong C, lựa chọn nào sau đây đúng?
+   a) Ép kiểu cho phép chuyển đổi tường minh giữa các kiểu dữ liệu khác nhau.
+   b) Khi ép double về int, phần thập phân sẽ bị cắt bỏ.
+   c) Khi ép int sang char, dữ liệu có thể bị mất nếu giá trị vượt ngoài phạm vi của char.
+   d) Ép kiểu ngầm định (implicit casting) luôn an toàn, không bao giờ gây mất dữ liệu.
+   e) Khi cộng int với float, int sẽ tự động được chuyển thành float trước khi thực hiện phép tính.
+   f) Không thể ép kiểu giữa char và int trong C.
+
+3. Trong lập trình C, khi sử dụng comment (// hoặc /* ... */), cách nào sau đây được coi là đúng chuẩn và hiệu quả?
+   a) Dùng comment để giải thích tại sao viết code như vậy, không chỉ giải thích lệnh làm gì.
+   b) Viết comment quá dài, lặp lại nguyên nội dung của code.
+   c) Dùng comment để ghi chú TODO hoặc FIXME cho công việc cần làm sau.
+   d) Viết comment bằng ngôn ngữ nhất quán (ví dụ toàn bộ bằng tiếng Anh).
+   e) Bỏ qua comment vì code “tự nói lên tất cả”.
+
+4. Trong việc lập trình C, những quy tắc nào sau đây thường được xem là chuẩn tốt để viết code dễ đọc, dễ bảo trì?
+   a) Sử dụng comment để giải thích ý nghĩa những đoạn code phức tạp hoặc khó hiểu.
+   b) Viết comment cho tất cả các dòng lệnh, kể cả những câu lệnh rất đơn giản như i++.
+   c) Luôn thụt đầu dòng (indent) khi viết các khối lệnh bên trong { ... } để dễ nhìn cấu trúc chương trình.
+   d) Chia code thành nhiều hàm nhỏ, mỗi hàm chỉ đảm nhận một nhiệm vụ cụ thể.
+   e) Viết toàn bộ chương trình trong một hàm main.
+
+5. Khi nhân hoặc cộng số nguyên có dấu (signed) với số nguyên không dấu (unsigned) trong C, điều nào sau đây là đúng?
+   a) Nếu một toán hạng là unsigned, toán hạng còn lại sẽ được chuyển thành unsigned trước khi tính.
+   b) Kết quả có thể gây ra lỗi logic nếu số âm được chuyển thành số dương rất lớn.
+   c) Khi nhân int với unsigned int, kết quả luôn giống như nhân int bình thường.
+   d) Nếu kết quả phép toán vượt quá phạm vi kiểu dữ liệu, có thể gây tràn số (overflow).
+
+6. Về phạm vi giá trị của các kiểu dữ liệu trong C, nhận định nào sau đây đúng?
+   a) int trên hệ thống 32-bit thường có phạm vi từ –2,147,483,648 đến 2,147,483,647.
+   b) float có phạm vi giá trị rộng hơn double.
+   c) long long luôn có phạm vi giống int.
+   d) long luôn có phạm vi giống int.
+
+7. Trong ngôn ngữ C, nhận định nào sau đây về các kiểu dữ liệu cơ bản (int, float, double, char) là đúng?
+   a) int thường dùng để lưu trữ số nguyên, kích thước phụ thuộc vào kiến trúc hệ thống (thường 4 byte).
+   b) float có độ chính xác cao hơn double.
+   c) double thường có độ chính xác gấp đôi float (thường 8 byte, so với float là 4 byte).
+   d) char trong C thực chất cũng là một kiểu số nguyên.
+   e) sizeof(char) luôn bằng 1 byte theo chuẩn C.
+   f) int luôn có 2 byte trên mọi hệ thống.
+
+8. Liên quan đến việc sử dụng float và double trong C, nhận định nào sau đây đúng?
+   a) float thường có độ chính xác khoảng 6–7 chữ số thập phân.
+   b) double thường có độ chính xác khoảng 15–16 chữ số thập phân.
+   c) long double thường có độ chính xác cao hơn double.
+   d) So sánh trực tiếp 2 số thực bằng toán tử == luôn an toàn và chính xác.
+   e) Khi tính toán số thực, nên dùng double thay vì float nếu yêu cầu độ chính xác cao.
+   f) Giá trị của float luôn được lưu chính xác tuyệt đối cho mọi số thập phân.
+
+9. Trong ngôn ngữ C, khi thực hiện tính toán giữa số nguyên và số thực, những nhận định nào sau đây là đúng?
+   a) double có thể lưu trữ chính xác mọi giá trị của int 32-bit mà không bị mất mát.
+   b) Nếu phép tính vượt quá phạm vi của float/double, kết quả có thể là +inf hoặc -inf.
+   c) Khi ép kiểu double về int, nếu giá trị vượt ngoài phạm vi của int, kết quả là không xác định.
+   d) Phép tính giữa unsigned int và double luôn an toàn, không bao giờ gây tràn số.
+   e) Khi cộng một int rất lớn với một float bé, giá trị int được chuyển sang float trước có thể gây mất độ chính xác.
+
+10. Về chuẩn trình bày (formatting) trong C, lựa chọn nào sau đây đúng chuẩn?
+   a) Mỗi câu lệnh kết thúc bằng dấu ; nên đặt trên một dòng riêng.
+   b) Viết nhiều lệnh trên cùng một dòng để tiết kiệm chỗ.
+   c) Sử dụng khoảng trắng hợp lý quanh các toán tử, ví dụ: a + b thay vì a+b.
+   d) Đặt dấu { mở khối lệnh trên cùng dòng với câu lệnh điều khiển.
+   e) Canh lề và thụt đầu dòng nhất quán trong toàn bộ chương trình.
+
+##################################################
+# PHẦN 2: ĐÁP ÁN
+##################################################
+
+1.  Đáp án đúng: a, b, c
+2.  Đáp án đúng: a, b, c, e
+3.  Đáp án đúng: a, c, d
+4.  Đáp án đúng: a, c, d
+5.  Đáp án đúng: a, b, d
+6.  Đáp án đúng: a
+7.  Đáp án đúng: a, c, d, e
+8.  Đáp án đúng: a, b, c, e
+9.  Đáp án đúng: a, b, c, e
+10. Đáp án đúng: a, c, d, e
