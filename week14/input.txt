@@ -1,0 +1,22 @@
+10
+Cua hang xang dau so 01
+So 01 duong Tran Quang Khai, phuong Trang Tien, quan Hoan Kiem, thanh pho Ha Noi.
+Cua hang xang dau so 04
+So 09 pho Tran Hung Dao, phuong Phan Chu Trinh, quan Hoan Kiem, thanh pho Ha Noi.
+Cua hang xang dau so 05
+So 01 pho Hang Bun, phuong Nguyen Trung Truc, quan Ba Dinh, thanh pho Ha Noi.
+Cua hang xang dau so 18
+So 625 duong De La Thanh, phuong Thanh Cong, quan Ba Dinh, thanh pho Ha Noi.
+Cua hang xang dau so 19
+So 01 pho Thanh Cong, phuong Thanh Cong, quan Ba Dinh, thanh pho Ha Noi.
+Cua hang xang dau so 14
+So 276 duong Thuy Khue, phuong Thuy Khue, quan Tay Ho, thanh pho Ha Noi.
+Cua hang xang dau so 06
+So nha 838 duong Bach Dang, phuong Thanh Luong, quan Hai Ba Trung, thanh pho Ha Noi.
+Cua hang xang dau so 50
+So 01 pho Luong Yen, phuong Bach Dang, quan Hai Ba Trung, thanh pho Ha Noi.
+Cua hang xang dau so 51
+So 484 pho Minh Khai, phuong Vinh Tuy, quan Hai Ba Trung, thanh pho Ha Noi.
+Cua hang xang dau so 30
+So 185 pho Nguyen Luong Bang, phuong Quang Trung, quan Dong Da, thanh pho Ha Noi.
+?query Phan Chu Trinh
